@@ -1,12 +1,9 @@
-//Its filter a values from an array 
-//Q.1 i want a odd elements of an array
+//its having a call back function called reducer and in this we have a 4 parameter (Accumulator,current values,index,array) and it gives a single output values.z
 
-var num=[23,1,8,113];
-console.log(num.filter(num1=>num1%2!==0));
+var num=[4,16,25,9,29];
+console.log(num.reduce((sum,num1) => sum+=num1));
 
+//initial value
 
-//<----- 2 nd way of writing---->
-var num=[23,1,8,113,115];
-console.log(num.filter(num1=>{
-    return num1%2 !==0;
-}));
+var num=[1,2,3,4];
+console.log(num.reduce((sum,num1)=>sum+=num1,100));
