@@ -8,4 +8,4 @@ console.log(num.every(nums=>nums>0));
 let num1=[1,23,8,113];
 console.log(num1.every(nums=>nums%2 !==0));
 
-//output false
+//output false;

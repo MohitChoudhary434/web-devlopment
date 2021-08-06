@@ -1,5 +1,5 @@
 //iterate an array by using for Of loop also in this loop we will used a break keyword.
-
+//its feature of ES6.
 const arr=[1,2,3];
 for(let  num of arr)
 {

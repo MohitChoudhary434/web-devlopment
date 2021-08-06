@@ -5,4 +5,4 @@ var number=[1,9,16,25,29];
 console.log(number.find(num=>num>18));
 
 var number=[1,9,16,25,29];
-console.log(number.findIndex(num=>num>18));
+console.log(number.findsIndex(num=>num>18));

@@ -4,4 +4,4 @@
 var arr=["bmw","audi","volvo","ms"];
 var arr1=arr.slice(1);
 console.log(arr1);
-//audi volvo ms
+//audi volvo
